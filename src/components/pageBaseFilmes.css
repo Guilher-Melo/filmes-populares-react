@@ -1,0 +1,31 @@
+.lista-filmes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  row-gap: 60px;
+  column-gap: 20px;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.lista-filmes img {
+  width: 250px;
+  border-radius: 6px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.lista-filmes img:hover {
+  transform: scale(1.1);
+
+}
+
+.lista-filmes li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-filmes div {
+  margin: 20px 0px;
+  text-align: center;
+}

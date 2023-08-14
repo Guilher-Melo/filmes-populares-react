@@ -1,0 +1,111 @@
+.img-fundo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:88vh;
+  object-fit: cover; /* Garante que a imagem ocupe toda a área do container */
+  /* Posicione a imagem para a direita */
+}
+
+.conteudo-details {
+  position: relative;
+  height: 88vh;
+}
+
+.div-imagem {
+  height: 88vh;
+}
+
+.fundo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 88vh;
+  background-color: rgba(0, 0, 0, 0.793); /* Fundo preto */
+}
+
+.content {
+  position: absolute;
+  top: 45%; /* Posicione o conteúdo a 50% da altura do contêiner */
+  right: 57%; /* Posicione o conteúdo a 50% da largura do contêiner */
+  transform: translate(-50%, -50%); /* Centraliza o conteúdo */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  color: white; /* Cor do texto */ 
+}
+
+.tagline {
+  font-size: 16px;
+}
+
+.img-poster-details {
+  width: 275px;
+}
+
+.div-imagem-poster h1 {
+ font-size: 18px;
+}
+
+.sinopse {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 65%;
+  top: 40%;
+  font-size: 18px;
+}
+
+.sinopse p {
+  margin-bottom: 15px;
+}
+
+.sinopse span {
+  display: block;
+  text-align: center;
+  width: 88px;
+  margin: auto;
+  border-radius: 7px;
+}
+
+.green {
+  background-color: green;
+  font-weight: bold;
+}
+
+.yellow {
+  background-color: rgb(212, 212, 6);
+  font-weight: bold;
+  color: rgb(68, 68, 68);
+}
+
+.red {
+  background-color: red;
+}
+
+.titulo-subtitulo {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.div-btn-voltar {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 65%;
+  top: 78%;
+}
+
+.div-btn-voltar button {
+  display: block;
+  margin-top: 12px;
+  font-size: 22px;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.div-btn-voltar button:hover {
+  background-color: #e50914;
+  font-weight: bold;
+}
