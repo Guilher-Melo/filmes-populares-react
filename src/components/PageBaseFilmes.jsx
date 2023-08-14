@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
-import "./pageBaseFilmes.css";
+import "./style/pageBaseFilmes.css";
 import { Link } from "react-router-dom";
 
 

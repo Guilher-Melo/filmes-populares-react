@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './header.css';
+import './style/header.css';
 import {BsSearch} from 'react-icons/bs'
 import { Link, useNavigate } from 'react-router-dom';
 
