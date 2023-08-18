@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./style/details.css";
+import {IoMdArrowBack} from "react-icons/io";
 
 function Details() {
   const navigate = useNavigate();
@@ -52,7 +53,8 @@ function Details() {
           </span>
         </div>
         <div className="div-btn-voltar">
-          <button onClick={handleVoltar}>Voltar</button>
+          <button onClick={handleVoltar}><IoMdArrowBack/></button>
+          <p>Voltar</p>
         </div>
       {console.log(movie)}
     </div>

@@ -6,12 +6,14 @@
   width: 100%;
   height:88vh;
   object-fit: cover; /* Garante que a imagem ocupe toda a área do container */
-  /* Posicione a imagem para a direita */
+  z-index: -1;
 }
 
 .conteudo-details {
   position: relative;
-  height: 88vh;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 .div-imagem {
@@ -25,15 +27,14 @@
   width: 100%;
   height: 88vh;
   background-color: rgba(0, 0, 0, 0.793); /* Fundo preto */
+  z-index: -1;
 }
 
 .content {
-  position: absolute;
-  top: 45%; /* Posicione o conteúdo a 50% da altura do contêiner */
-  right: 57%; /* Posicione o conteúdo a 50% da largura do contêiner */
-  transform: translate(-50%, -50%); /* Centraliza o conteúdo */
-  text-align: center; /* Centraliza o texto horizontalmente */
-  color: white; /* Cor do texto */ 
+  text-align: center; 
+  color: white;
+  margin-top: 35px;
+  margin-right: 65px; 
 }
 
 .tagline {
@@ -49,11 +50,15 @@
 }
 
 .sinopse {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 65%;
-  top: 40%;
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  width: 510px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 12px;
 }
 
 .sinopse p {
@@ -90,22 +95,36 @@
 }
 
 .div-btn-voltar {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 65%;
-  top: 78%;
+ display: flex;
+ flex-direction: column;
 }
 
 .div-btn-voltar button {
   display: block;
-  margin-top: 12px;
-  font-size: 22px;
-  padding: 6px;
-  border-radius: 8px;
+  width: 50px;
+  margin-top: 19px;
+  font-size: 29px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 12px;
   cursor: pointer;
   border: none;
+  height: 30px;
 }
+
 .div-btn-voltar button:hover {
   background-color: #e50914;
   font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .conteudo-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    position: absolute;
+
+  }
 }
