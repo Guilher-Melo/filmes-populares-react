@@ -127,6 +127,7 @@
 
   .img-poster-details {
     width: 220px;
+    margin-top: 20px;
   }
 
   .div-imagem-poster h1 {
@@ -135,6 +136,7 @@
 
   .tagline {
     font-size: 13px;
+    margin: 0 4px;
   }
 
   .content {
@@ -171,11 +173,11 @@
   }
 
   .div-btn-voltar {
-    margin-top: 25px;
     margin-left: 12px;
   }
  
   .sinopse span {
     margin-top: 12px;
+    width: 60px;
   }
 }
