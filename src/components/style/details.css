@@ -118,6 +118,25 @@
   font-weight: bold;
 }
 
+@media (max-width: 900px) {
+  .img-fundo {
+    height: 95.5vh;
+  }
+
+  .fundo {
+    height: 95.5vh;
+  }
+
+  .div-imagem {
+    height: 95.5vh;
+  }
+
+  .div-imagem-poster {
+    margin-left: 8px;
+  }
+
+}
+
 @media (max-width: 480px) {
   .conteudo-details {
     display: flex;
@@ -157,7 +176,7 @@
   }
 
   .div-imagem {
-    height: 0px;
+    height: 0;
   }
 
   .titulo-subtitulo {
